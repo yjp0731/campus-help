@@ -1,0 +1,1 @@
+target/ *.jar *.war *.class logs/ *.log application.yml application-dev.yml .DS_Store .idea/ .vscode/
