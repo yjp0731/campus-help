@@ -1,1 +1,8 @@
-target/ *.jar *.war *.class logs/ *.log application.yml application-dev.yml .DS_Store .idea/ .vscode/
+# 编译jar包
+*.jar target/ *.class *.war
+# 日志文件
+*.log logs/
+# 配置文件（带密码）
+application*.yml application*.yaml
+# IDE
+.idea/ .vscode/ .DS_Store
